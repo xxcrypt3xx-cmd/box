@@ -1,0 +1,23 @@
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100px;
+margin: 50px;
+background-color: rgba(15, 16, 14, 0.5);
+overflow: hidden;
+}
+.expanding-box:hover {
+width: 500px;
+height: 400px;
+overflow:hidden;
+word-wrap: break-word;
+overflow: scroll;
+}
+.expanding-box {
+width: 510px;
+height: 56px;
+overflow:hidden;
+background-color: #7b337d;
+transition: width 5.5s, height 5.5s; /* Adding transitions for smooth animation */
+}
