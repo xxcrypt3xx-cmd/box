@@ -5,7 +5,6 @@ text-align: center;
 height: 100px;
 margin: 50px;
 background: rgba(15, 16, 14, 0.5);
-color: #2D4A2E;
 border: #1px solid #080504;
 border-radius: 15px;
 overflow: hidden;
@@ -24,8 +23,7 @@ width: 510px;
 height: 56px;
 overflow:hidden;
 background: rgba(15, 16, 14, 0.5);
-color: #2D4A2E;
-border: #1px solid #080504;
+  border: #1px solid #080504;
 border-radius: 15px;
 transition: width 5.5s, height 5.5s; /* Adding transitions for smooth animation */
 }
